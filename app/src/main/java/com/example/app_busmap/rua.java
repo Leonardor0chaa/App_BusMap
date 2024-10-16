@@ -34,4 +34,9 @@ public class rua extends AppCompatActivity {
         Intent intent = new Intent(this, linharua.class);
         startActivity(intent);
     }
+    public void abrindo_linharua2(View view) {
+        // Lógica para abrir outra Activity ou qualquer outra ação
+        Intent intent = new Intent(this, linharua2.class);
+        startActivity(intent);
+    }
 }

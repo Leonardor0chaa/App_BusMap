@@ -13,6 +13,12 @@
         android:theme="@style/Theme.App_BusMap"
         tools:targetApi="31">
         <activity
+            android:name=".linhas2"
+            android:exported="false" />
+        <activity
+            android:name=".linharua2"
+            android:exported="false" />
+        <activity
             android:name=".linhas"
             android:exported="false" />
         <activity
