@@ -49,7 +49,7 @@ public class login extends AppCompatActivity {
                     editUser.requestFocus();
                     return;
                 }
-                a
+
                 // Verifica se o campo Senha está vazio
                 if (TextUtils.isEmpty(senha)) {
                     editSenha.setError("Senha é obrigatória");
