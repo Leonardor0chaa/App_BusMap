@@ -2,7 +2,9 @@ package com.example.app_busmap;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class linhas2 extends AppCompatActivity {
 
@@ -10,5 +12,20 @@ public class linhas2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linhas2);
+    }
+    public void abrindo_perfil(View view) {
+        // Lógica para abrir outra Activity ou qualquer outra ação
+        Intent intent = new Intent(this, perfil.class);
+        startActivity(intent);
+    }
+    public void abrindo_home(View view) {
+        // Lógica para abrir outra Activity ou qualquer outra ação
+        Intent intent = new Intent(this, home.class);
+        startActivity(intent);
+    }
+    public void abrindo_favoritos(View view) {
+        // Lógica para abrir outra Activity ou qualquer outra ação
+        Intent intent = new Intent(this, favoritos.class);
+        startActivity(intent);
     }
 }

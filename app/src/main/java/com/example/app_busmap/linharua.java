@@ -18,4 +18,19 @@ public class linharua extends AppCompatActivity {
         Intent intent = new Intent(this, linhas.class);
         startActivity(intent);
     }
+    public void abrindo_perfil(View view) {
+        // Lógica para abrir outra Activity ou qualquer outra ação
+        Intent intent = new Intent(this, perfil.class);
+        startActivity(intent);
+    }
+    public void abrindo_home(View view) {
+        // Lógica para abrir outra Activity ou qualquer outra ação
+        Intent intent = new Intent(this, home.class);
+        startActivity(intent);
+    }
+    public void abrindo_favoritos(View view) {
+        // Lógica para abrir outra Activity ou qualquer outra ação
+        Intent intent = new Intent(this, favoritos.class);
+        startActivity(intent);
+    }
 }
